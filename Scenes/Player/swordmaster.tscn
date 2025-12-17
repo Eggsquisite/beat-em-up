@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bghkjunt26pfc"]
+
+[ext_resource type="PackedScene" uid="uid://bs3yxd5m5lghk" path="res://Scenes/Player/player_base.tscn" id="1_fm4u5"]
+[ext_resource type="SpriteFrames" uid="uid://cnvmvrkrb7hc3" path="res://Resources/Animations/swordmaster.tres" id="2_40f1h"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_40f1h"]
+radius = 6.0
+
+[node name="PlayerBase" instance=ExtResource("1_fm4u5")]
+
+[node name="CollisionShape2D" parent="." index="0"]
+position = Vector2(0, 13)
+shape = SubResource("CircleShape2D_40f1h")
+
+[node name="AnimatedSprite2D" parent="SpritePivot" index="0"]
+sprite_frames = ExtResource("2_40f1h")
+autoplay = "idle"
+frame_progress = 0.93390924
+offset = Vector2(17, 0)

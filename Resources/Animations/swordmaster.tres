@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" load_steps=11 format=3 uid="uid://cnvmvrkrb7hc3"]
+
+[ext_resource type="Texture2D" uid="uid://ch5h7g8amlc8k" path="res://Art/Players/Sword Master Sprite Sheet 90x37.png" id="1_6s3an"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_40f1h"]
+atlas = ExtResource("1_6s3an")
+region = Rect2(0, 37, 90, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oxhi5"]
+atlas = ExtResource("1_6s3an")
+region = Rect2(90, 37, 90, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_814cx"]
+atlas = ExtResource("1_6s3an")
+region = Rect2(180, 37, 90, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s80u4"]
+atlas = ExtResource("1_6s3an")
+region = Rect2(270, 37, 90, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uer4p"]
+atlas = ExtResource("1_6s3an")
+region = Rect2(360, 37, 90, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2cbx7"]
+atlas = ExtResource("1_6s3an")
+region = Rect2(450, 37, 90, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lfdsp"]
+atlas = ExtResource("1_6s3an")
+region = Rect2(540, 37, 90, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m0wom"]
+atlas = ExtResource("1_6s3an")
+region = Rect2(630, 37, 90, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1gief"]
+atlas = ExtResource("1_6s3an")
+region = Rect2(720, 37, 90, 37)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_40f1h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oxhi5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_814cx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s80u4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uer4p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2cbx7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lfdsp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m0wom")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1gief")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}]
